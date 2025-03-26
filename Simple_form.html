@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel Reservetion Form</h1>
+<p>*denotes mandotory</p>
+
+<form>
+
+    <Label for="Full Name">Full Name<sup style="size: 10px ;color: red;">*</sup></Label>
+    <input type="text" id="Full Name" placeholder="John_Dough" required></br></br>
+
+    <Label for="Email ID">Email ID<sup style="size: 10px ;color: red;">*</sup></Label>
+    <input type="text" id="Email ID" placeholder="abc@example.com" required></br></br>
+
+    <Label for="Select Tour Pack">Select Tour Pack</Label>
+    <select name="Tour Pack" id="Select Tour Pack">
+        <option value="Shimla">Shimla</option>
+        <option value="Manali">Manali</option>
+        <option value="Kullu">Kullu</option>
+        <option value="Ladakh">Ladakh</option></select>
+            </br>
+            </br>
+
+    <label for="calander">Pick a Date</label>
+    <input type="date" id="calander" placeholder="dd/mm/yyyy">
+            </br>
+            </br>
+
+    <label for="Travel Type">Travel Type<span style="color: red;">*</span></label><br>
+
+    <input type="checkbox" id="Travel Type" required>Plane
+            </br>
+    <input type="checkbox" id="Travel Type" required>Boat
+            </br>
+    <input type="checkbox" id="Travel Type" required>Train
+            </br>
+            </br>
+
+    <label>Gender</span></label>
+            <br>
+    
+    <input type="radio" name="Gender" checked>Male
+            </br>
+    <input type="radio" name="Gender">Female
+            </br>
+    <input type="radio" name="Gender">Non-Binary
+            </br>
+   
+</form>
+
+</body>
+</html>
